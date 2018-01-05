@@ -1,6 +1,6 @@
 <template>
   <div class="title-image">
-    <div class="image-container" v-bind:style="{background: 'url('+this.imgPath+')'}">a</div>
+    <div class="image-container" v-bind:style="{background: 'url('+this.imgPath+')'}"></div>
   </div>
 </template>
 

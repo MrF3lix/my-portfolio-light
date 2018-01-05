@@ -1,12 +1,12 @@
 <template>
     <div class="btn">
-        <a v-bind:href="this.link">{{this.text}}</a>
+        <a v-bind:href="this.link" v-bind:target="this.target">{{this.text}}</a>
     </div>
 </template>
 
 <script>
 export default {
-    props: ['text', 'link'],
+    props: ['text', 'link', 'target'],
     name: 'TitleButton'
 }
 </script>

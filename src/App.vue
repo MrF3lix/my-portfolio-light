@@ -7,7 +7,7 @@
     
       <div class="actions">
         <titleButton v-bind:text="this.contactText" v-bind:link="this.contactLink"></titleButton>
-        <titleButton v-bind:text="this.downloadText" v-bind:link="this.downloadLink"></titleButton>
+        <titleButton v-bind:text="this.downloadText" v-bind:link="this.downloadLink" v-bind:target="this.downloadTarget"></titleButton>
       </div>
 
       <contactForm></contactForm>
@@ -33,11 +33,12 @@ export default {
   data(){
     return{
       title: "Hi, I'm Felix!",
-      subtitle: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+      subtitle: "And I love doing stuff! No matter if it’s trying to get my Asian cooking skills to the next level by eating my home cooked meals, getting out into the nature with a mountain to clear my head and feel the adrenaline while riding down a hill, learning about design and motion graphics by watching endless hours of YouTube videos and try using the techniques I learned with the help of Adobe CC or extensively researching new gadgets such as cameras and drones while dreaming of owning them. By the way I also happened to have useful skills, feel free to check them out in my resume bellow!",
       contactText: "Get in touch!",
       contactLink: "mailto:felix@saaro.ch?subject=Hi, I'd like to get in touch with you!",
       downloadText: "Download my resume",
-      downloadLink: "#"
+      downloadLink: "https://felix.saaro.ch/doc/Resume_V-1-4.pdf",
+      downloadTarget: "_Blank"
     }
   }
 }
