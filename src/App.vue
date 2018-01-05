@@ -33,7 +33,7 @@ export default {
   data(){
     return{
       title: "Hi, I'm Felix!",
-      subtitle: "And I love doing stuff! No matter if it’s trying to get my Asian cooking skills to the next level by eating my home cooked meals, getting out into the nature with a mountain to clear my head and feel the adrenaline while riding down a hill, learning about design and motion graphics by watching endless hours of YouTube videos and try using the techniques I learned with the help of Adobe CC or extensively researching new gadgets such as cameras and drones while dreaming of owning them. By the way I also happened to have useful skills, feel free to check them out in my resume bellow!",
+      subtitle: "And I love doing stuff! No matter if it’s trying to get my Asian cooking skills to the next level by eating my home cooked meals, getting out into the nature with a mountain to clear my head and feel the adrenaline while riding down a hill, learning about design and motion graphics by watching endless hours of YouTube videos and try using the techniques I learned with the help of Adobe CC or extensively researching new gadgets such as cameras and drones while dreaming of owning them. By the way, I also happened to have useful skills. Feel free to check them out in my resume bellow!",
       contactText: "Get in touch!",
       contactLink: "mailto:felix@saaro.ch?subject=Hi, I'd like to get in touch with you!",
       downloadText: "Download my resume",
